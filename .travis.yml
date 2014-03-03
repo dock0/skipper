@@ -8,7 +8,6 @@ notifications:
   email: false
   irc:
     channels:
-      - secure: "ph7f8oSBHJCJXZl6/4mgckX60qi+iZ/1T8H4ey/gUk4KKQ1lf3HaVENWLRZk0ULuRCoeagsByFFahqaDbf5roxsZY4lwgZxEcsRUvkYwFQ2ichl36U4QPXgoVoXfnumb7HOlCrqJrB9fnvLOJ3hgFPDMtwG4eYg7AFAZBgechBM="
-    channel_key: sekrit
+    - secure: "ph7f8oSBHJCJXZl6/4mgckX60qi+iZ/1T8H4ey/gUk4KKQ1lf3HaVENWLRZk0ULuRCoeagsByFFahqaDbf5roxsZY4lwgZxEcsRUvkYwFQ2ichl36U4QPXgoVoXfnumb7HOlCrqJrB9fnvLOJ3hgFPDMtwG4eYg7AFAZBgechBM="
     template:
-      - '%{repository}/%{branch}/%{build_number}: %{message} -- %{build_url}'
+    - '%{repository}/%{branch}/%{build_number}: %{message} -- %{build_url}'
