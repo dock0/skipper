@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.test_files  = `git ls-files spec/*`.split
 
   s.add_development_dependency 'rubocop', '~> 0.23.0'
-  s.add_development_dependency 'rake', '~> 10.3.2'
+  s.add_development_dependency 'rake', '~> 10.3.0'
   s.add_development_dependency 'coveralls', '~> 0.7.0'
   s.add_development_dependency 'rspec', '~> 3.0.0'
-  s.add_development_dependency 'fuubar', '~> 1.3.3'
+  s.add_development_dependency 'fuubar', '~> 2.0.0.rc1'
 end
